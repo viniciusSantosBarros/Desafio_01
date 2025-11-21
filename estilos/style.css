@@ -4,6 +4,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: var(--cor01);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root{
@@ -15,4 +18,38 @@
     --cor05: #FF6700;
     --cor06: #FB0334;
     --cor07: black;
+}
+
+nav{
+    background-color: var(--cor00);
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--cor00);
+}
+
+.globocom{
+    color: var(--cor02);
+}
+
+.g1{
+    color: var(--cor03);
+}
+
+.ge{
+    color: var(--cor04);
+}
+
+.gshow{
+    color: var(--cor05);
+}
+
+.globoplay{
+    color: var(--cor06);
 }
