@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: var(--cor01);
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,7 +20,6 @@
 }
 
 nav{
-    background-color: var(--cor00);
     height: 45px;
     display: flex;
     justify-content: space-around;
@@ -31,7 +29,6 @@ nav{
 a{
     text-decoration: none;
     font-weight: bold;
-    background-color: var(--cor00);
 }
 
 .globocom{
@@ -53,3 +50,72 @@ a{
 .globoplay{
     color: var(--cor06);
 }
+
+menu{
+    background-color: var(--cor04);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+menu > a{
+    background-color: var(--cor04)
+}
+
+menu > a > i{
+    background-color: var(--cor04);
+    color: var(--cor00);
+}
+
+section > article{
+    width: 90vw;
+    margin: auto;
+}
+
+h1{
+    color: var(--cor04);
+    margin: 15px 0px;
+    font-size: 20pt;
+    text-align: justify;
+}
+
+.imagem{
+    width: 90vw;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    margin: auto;
+}
+
+.paragrafo{
+    text-align: start;
+    width: 90vw;
+    padding: 10px;
+}
+
+#botao{
+    background-color: #06AA48;
+    border-radius: 5px;
+    color: var(--cor00);
+    padding: 5px 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: var(--cor04)
+}
+
+.titulo_footer{
+    color: var(--cor00);
+    padding: 2px 5px;
+}
+
+
+.paragrafo_footer{
+    margin-top: 20px;
+    color: var(--cor00);
+    padding: 2px 5px;
+}
+
