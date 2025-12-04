@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="estilos/portrait.css">
     <link rel="stylesheet" href="estilos/landscape.css">
     <script src="https://kit.fontawesome.com/45f94e3101.js" crossorigin="anonymous"></script>
+    <script src="js/javascript.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <a href="globoCom" class="globocom">globo.com</a>
-            <a href="g1" class="g1">g1</a>
-            <a href="ge" class="ge">ge</a>
-            <a href="gshow" class="gshow">gshow</a>
-            <a href="globoplay" class="globoplay">globoplay</a>
+            <a href="globoCom" class="globocom" onclick="navegacao()">globo.com</a>
+            <a href="g1" class="g1" onclick="navegacao()">g1</a>
+            <a href="ge" class="ge" onclick="navegacao()">ge</a>
+            <a href="gshow" class="gshow" onclick="navegacao()">gshow</a>
+            <a href="globoplay" class="globoplay" onclick="navegacao()">globoplay</a>
         </nav>
 
         <menu>
@@ -30,7 +31,7 @@
             <article class="grid_article">
                 <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta saepe nihil architecto quidem. Delectus, est fugiat!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam ducimus, ab dolorum maxime sapiente quae nam maiores aliquam? Rerum magnam odit iusto deserunt atque aliquam facilis, porro, unde natus dolore alias veritatis eveniet earum tenetur quo veniam delectus explicabo ullam!</p>
 
                 <div class="grid_landscape">
                     <div class="img01"></div>
@@ -56,14 +57,18 @@
                 </div>
 
                 <p>Há 2 horas - Em globo esporte</p>
+                <hr>
+
+                <input type="button" value="veja mais" class="veja_mais" onclick="navegacao()">
             </article>
 
         </section>
     </main>
 
     <footer>
-        <h1 class="titulo_footer">ge</h1>
-         <p class="paragrafo_footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eaque.</p>
+        <span class="titulo_footer">ge</span>
+        <span class="paragrafo_footer">agenda | tabelas</span>
+         <p class="paragrafo_footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At sunt rerum iste nemo sapiente. Alias unde laboriosam quod soluta animi?</p>
     </footer>
 </body>
 </html>

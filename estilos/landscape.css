@@ -6,7 +6,9 @@
     }
 
     .grid_landscape{
-        height: 270px;
+        height: 450px;
+        max-width: 95vw;
+        margin: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -20,7 +22,8 @@
         background-image: url(../imagens/bola_futebol_p.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        object-fit: cover;
+        background-size: cover;
+        border-radius: 5px;
     }
 
     .img02{
@@ -31,16 +34,15 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        
+        border-radius: 5px;
     }
 
     .img03{
-        background-color: aqua;
+        background-image: url(../imagens/estadio_p.jpg);
+        background-size: cover;
+        background-position: center;
         grid-column: 2 / 3;
         grid-row: 2 / 3;
-    }
-
-   
-
-    
+        border-radius: 5px;
+    } 
 }
