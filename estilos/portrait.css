@@ -77,6 +77,10 @@ article.grid_article{
     grid-column: 2 / 3;
 }
 
+.img_oculta{
+    display: none;
+}
+
 h1{
     color: var(--cor04);
     margin: 15px 0px;
